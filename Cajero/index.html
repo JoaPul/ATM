@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Joquin" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+    <title>🏧Banquito®️</title>
+  </head>
+  <body>
+    <section class="todo" id="todo">
+      <section class="container">
+        <!--Conrtenedor principal-->
+        <section class="header">
+          <!--Contenedor del header-->
+          <div class="barrita"></div>
+          <div class="nomban">
+            <h1>Banquito MiAlegria<span>®️</span></h1>
+          </div>
+          <div class="barrita2"></div>
+        </section>
+        <section class="workspace">
+          <!--Contenedor de la pantalla y los margenes laterales con botones-->
+          <section class="left">
+            <!--Margen con botones izquierda-->
+            <div class="seleccionadorIz" id="Ione" onclick="null"></div>
+            <div class="seleccionadorIz" id="Idos" onclick="null"></div>
+            <div class="seleccionadorIz" id="Itres" onclick="null"></div>
+            <div class="seleccionadorIz" id="Icua" onclick="null"></div>
+          </section>
+          <section class="middle">
+            <!--sección con pantalla-->
+            <section class="ads" id="ads">
+              <a href="https://www.mialegria.com.mx/">
+                <div class="anuncio" id="anuncio">
+                  <img src="./assets/fabrica de pelotas.jpg" alt="Anuncio Publicitario" id="superAnuncio" />
+                  <h2>MiAlegria</h2>
+                </div>
+              </a>
+            </section>
+            <!-- <img src="./assets/fabrica de pelotas.jpg" alt="Anuncio Publicitario" /> -->
+            <!--Baner para los ads-->
+            <section class="pantalla" id="pantalla"></section>
+            <div class="dos" id="dos"></div>
+            <div class="tres" id="tres"></div>
+            <div class="cuatro" id="cuatro"></div>
+            <div class="seis" id="seis"></div>
+            <div class="siete" id="siete"></div>
+            <div class="ocho" id="ocho"><h2>Iniciar🔷</h2></div>
+          </section>
+          <section class="right">
+            <!--Margen con botones derecha-->
+            <div class="seleccionadorRi" id="Rone" onclick="null"></div>
+            <div class="seleccionadorRi" id="Rdos" onclick="null"></div>
+            <div class="seleccionadorRi" id="Rtres" onclick="null"></div>
+            <div class="seleccionadorRi" id="Rcua" onclick="inicial()">
+              <!--aqui llamar a la misma funcion, pero depende de que pantalla estes que opcion tengas-->
+            </div>
+          </section>
+        </section>
+        <section class="bottom">
+          <!--Margen inferior con talvez botones de numeros-->
+        </section>
+      </section>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
