@@ -315,31 +315,33 @@ body {
 .anuncio {
   object-fit: cover;
   height: 150px;
-  width: 720px;
+  width: 100%;
   border-bottom: 3px solid #96a6d9;
   border-radius: 10px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ads .anuncio img {
-  display: block;
+  /* display: block; */
   height: inherit;
-  width: inherit;
-  object-fit: cover;
+  position: absolute;
+  /* object-fit: cover; */
   border-radius: 20px;
 }
 a {
   text-decoration: none;
+  height: 100%;
+  width: 100%;
 }
 .anuncio h2 {
   width: 226px;
   border-radius: 10px;
   background-color: #68788c;
   position: relative;
-  bottom: 97px;
-  left: 240px;
+  /* bottom: 97px;
+  left: 240px; */
   font-size: 50px;
   color: #ffffff;
 }
